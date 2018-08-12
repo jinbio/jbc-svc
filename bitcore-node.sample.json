@@ -1,26 +1,26 @@
 {
     "network": "livenet",
-    "port": 13580,
+    "port": 13780,
     "services": [
         "bitcoind",
         "web",
-        "insight-pax-api",
-        "insight-pax"
+        "insight-jbc-api",
+        "insight-jbc"
 
     ],
     "servicesConfig": {
 
-        "insight-pax": {
-            "11routePrefix": "insight-pax",
-            "apiPrefix": "insight-pax-api"
+        "insight-jbc": {
+            "11routePrefix": "insight-jbc",
+            "apiPrefix": "insight-jbc-api"
         },
         "bitcoind": {
             "connect": [{
                 "rpchost": "127.0.0.1",
-                "rpcport": 13502,
+                "rpcport": 13702,
                 "rpcuser": "1234567890",
                 "rpcpassword": "1234567890",
-                "zmqpubrawtx": "tcp://127.0.0.1:13591"
+                "zmqpubrawtx": "tcp://127.0.0.1:13791"
             }]
         }
     }

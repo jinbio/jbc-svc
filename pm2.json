@@ -1,6 +1,6 @@
 {
     "apps": [{
-        "name": "insight-pax",
+        "name": "insight-jbc",
         "script": "start.js",
         "watch": true,
         "exec_interpreter": "node@6.11.4"
